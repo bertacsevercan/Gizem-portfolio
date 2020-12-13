@@ -1,9 +1,9 @@
 import React from "react";
-import Route from "react-router-dom";
-import Home from "./containers/Home";
-import Resume from "./containers/Resume";
-import Contact from "./containers/Contact";
-import Projects from "./containers/Projects";
+import { Route } from "react-router-dom";
+import Home from "../Home";
+import Resume from "../Resume";
+import Contact from "../Contact";
+import Projects from "../Projects";
 import "./style.css";
 
 const MainContent = () => {

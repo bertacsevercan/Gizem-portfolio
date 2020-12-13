@@ -2,9 +2,11 @@ import React from "react";
 import "./style.css";
 
 const SideNav = () => {
-  return <div className="sideNav">
+  return (
+    <div className="sideNav">
       <h1>LOGO</h1>
-  </div>;
+    </div>
+  );
 };
 
 export default SideNav;

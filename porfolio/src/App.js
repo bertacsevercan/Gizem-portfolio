@@ -14,14 +14,12 @@ function App() {
   return (
     <I18nextProvider i18n={i18n}>
       <div className="App">
-        <div className="content-wrapper">
-          <Router>
-            <SideNav />
-            <MainContent />
-            <RightSider />
-            {/*    <Footer /> */}
-          </Router>
-        </div>
+        <Router>
+          <SideNav />
+          <MainContent />
+          <RightSider />
+          {/*    <Footer /> */}
+        </Router>
       </div>
     </I18nextProvider>
   );
