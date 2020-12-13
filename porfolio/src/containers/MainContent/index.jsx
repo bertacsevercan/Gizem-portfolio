@@ -4,6 +4,7 @@ import Home from "./containers/Home";
 import Resume from "./containers/Resume";
 import Contact from "./containers/Contact";
 import Projects from "./containers/Projects";
+import "./style.css";
 
 const MainContent = () => {
   return (
