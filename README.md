@@ -1,2 +1,2 @@
 # gizem-portfolio
-This is Gizem's portfolio website.
+This is Gizem Erdurak's portfolio website.
