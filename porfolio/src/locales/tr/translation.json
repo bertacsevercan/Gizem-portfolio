@@ -1,15 +1,15 @@
 {
   "home": {
-    "title": "HOME"
+    "title": "ANASAYFA"
   },
   "resume": {
-    "title": "RESUME"
+    "title": "ÖZGEÇMİŞ"
   },
   "projects": {
-    "title": "PROJECTS"
+    "title": "PROJELER"
   },
   "contact": {
-    "title": "CONTACT"
+    "title": "İLETİŞİM"
   },
   "language": {
     "en": "EN",
