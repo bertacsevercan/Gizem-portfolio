@@ -33,6 +33,10 @@
   outline: none;
 }
 
+#worldButton svg:hover {
+  box-shadow: 1px 1px grey;
+}
+
 #navToggler {
   font-size: 20px;
   cursor: pointer;

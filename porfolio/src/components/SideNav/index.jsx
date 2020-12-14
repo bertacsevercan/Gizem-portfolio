@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
+import { GrLanguage } from "react-icons/gr";
 import "./style.css";
 
 const SideNav = ({ setMainWidth }) => {
   const { t } = useTranslation();
   const [navWidth, setNavWidth] = useState("20%");
+  const [language, setLanguage] = useState("");
   // const [expanded, setExpanded] = useState(false);
 
   const toggleNav = () => {
@@ -22,8 +24,10 @@ const SideNav = ({ setMainWidth }) => {
   const changeLanguage = () => {
     if (i18next.language === "en") {
       i18next.changeLanguage("tr");
+      setLanguage("EN");
     } else {
       i18next.changeLanguage("en");
+      setLanguage("TR");
     }
   };
 
@@ -38,8 +42,8 @@ const SideNav = ({ setMainWidth }) => {
         </div>
       </div>
       <div className="navLinks">
-        <button onClick={changeLanguage} id="worldButton">
-          <h4>&#127760;</h4>
+        <button title={language} onClick={changeLanguage} id="worldButton">
+          <h4>{<GrLanguage />}</h4>
         </button>
         <h4>
           {
