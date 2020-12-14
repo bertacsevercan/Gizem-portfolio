@@ -19,6 +19,10 @@
   color: grey;
 }
 
+.navLinks h4 {
+  padding-bottom: 1rem;
+}
+
 #logo {
   padding-top: 1rem;
 }
@@ -30,7 +34,7 @@
   color: white;
   padding: 10px 15px;
   border: none;
-  position: fixed;
+  position: relative;
 }
 
 #navToggler:hover {

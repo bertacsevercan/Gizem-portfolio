@@ -19,7 +19,6 @@ function App() {
           <SideNav setMainWidth={setMainWidth} />
           <MainContent mainWidth={mainWidth} />
           <RightSider />
-          {/*    <Footer /> */}
         </Router>
       </div>
     </I18nextProvider>

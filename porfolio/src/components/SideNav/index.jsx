@@ -20,42 +20,44 @@ const SideNav = ({ setMainWidth }) => {
 
   return (
     <div className="sideNav" style={{ width: navWidth }}>
-      <button id="navToggler" onClick={toggleNav}>
-        &#9776;
-      </button>
-      <div id="logo">
-        <h2>LOGO</h2>
+      <div className="buttonLogo">
+        <button id="navToggler" onClick={toggleNav}>
+          &#9776;
+        </button>
+        <div id="logo">
+          <h4>LOGO</h4>
+        </div>
       </div>
       <div className="navLinks">
-        <h2>TR/EN</h2>
-        <h2>
+        <h4>TR/EN</h4>
+        <h4>
           {
             <NavLink activeStyle={{ color: "grey" }} exact to="/">
               {t("home.title")}
             </NavLink>
           }
-        </h2>
-        <h2>
+        </h4>
+        <h4>
           {
             <NavLink activeStyle={{ color: "grey" }} to="/resume">
               {t("resume.title")}
             </NavLink>
           }
-        </h2>
-        <h2>
+        </h4>
+        <h4>
           {
             <NavLink activeStyle={{ color: "grey" }} to="/projects">
               {t("projects.title")}
             </NavLink>
           }
-        </h2>
-        <h2>
+        </h4>
+        <h4>
           {
             <NavLink activeStyle={{ color: "grey" }} to="/contact">
               {t("contact.title")}
             </NavLink>
           }
-        </h2>
+        </h4>
       </div>
     </div>
   );
