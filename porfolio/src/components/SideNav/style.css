@@ -4,10 +4,20 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: goldenrod;
+  transition: 1s ease;
 }
 
 .navLinks {
   padding-bottom: 1rem;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: black;
+}
+
+.navLinks a:hover {
+  color: grey;
 }
 
 #logo {
