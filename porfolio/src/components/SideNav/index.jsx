@@ -2,25 +2,21 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./style.css";
 
-const SideNav = () => {
+const SideNav = ({ setMainWidth }) => {
   const [navWidth, setNavWidth] = useState("20%");
-  const [leftMargin, setLeftMargin] = useState("0");
 
   const toggleNav = () => {
     if (navWidth === 0) {
       setNavWidth("20%");
-      setLeftMargin(0);
+      setMainWidth("60%");
     } else {
       setNavWidth(0);
-      setLeftMargin("20%");
+      setMainWidth("80%");
     }
   };
 
   return (
-    <div
-      className="sideNav"
-      style={{ width: navWidth, marginLeft: leftMargin }}
-    >
+    <div className="sideNav" style={{ width: navWidth }}>
       <div id="logo">
         <h1>LOGO</h1>
       </div>

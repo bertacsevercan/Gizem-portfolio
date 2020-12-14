@@ -6,9 +6,9 @@ import Contact from "../Contact";
 import Projects from "../Projects";
 import "./style.css";
 
-const MainContent = () => {
+const MainContent = ({ mainWidth }) => {
   return (
-    <div className="mainContent">
+    <div className="mainContent" style={{ width: mainWidth }}>
       <Route exact path="/" component={Home} />
       <Route path="/resume" component={Resume} />
       <Route path="/contact" component={Contact} />
