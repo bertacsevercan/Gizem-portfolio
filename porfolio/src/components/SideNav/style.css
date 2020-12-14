@@ -1,5 +1,5 @@
 .sideNav {
-  width: 20%;
+  /*  width: 20%; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -22,4 +22,17 @@
 
 #logo {
   padding-top: 1rem;
+}
+
+#navToggler {
+  height: 50px;
+  border-top-right-radius: 10rem;
+  border-bottom-right-radius: 9rem;
+  width: 10px;
+  position: absolute;
+  outline: none;
+  z-index: 1;
+  background-color: rgba(64, 194, 133, 0.693);
+  border-color: rgba(64, 194, 133, 0.693);
+  border-left: 0;
 }
