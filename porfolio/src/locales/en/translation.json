@@ -1,15 +1,15 @@
 {
   "home": {
-    "title": "HOME"
+    "title": "Home"
   },
   "resume": {
-    "title": "RESUME"
+    "title": "Resume"
   },
   "projects": {
-    "title": "PROJECTS"
+    "title": "Projects"
   },
   "contact": {
-    "title": "CONTACT"
+    "title": "Contact"
   },
   "language": {
     "en": "EN",

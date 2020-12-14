@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 // import i18next from "i18next";
 import "./style.css";
 
 const SideNav = ({ setMainWidth }) => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   const [navWidth, setNavWidth] = useState("20%");
 
   const toggleNav = () => {
@@ -20,41 +20,43 @@ const SideNav = ({ setMainWidth }) => {
 
   return (
     <div className="sideNav" style={{ width: navWidth }}>
+      <button id="navToggler" onClick={toggleNav}>
+        &#9776;
+      </button>
       <div id="logo">
-        <h1>LOGO</h1>
+        <h2>LOGO</h2>
       </div>
       <div className="navLinks">
-        <h1>TR/EN</h1>
-        <h1>
+        <h2>TR/EN</h2>
+        <h2>
           {
             <NavLink activeStyle={{ color: "grey" }} exact to="/">
               {t("home.title")}
             </NavLink>
           }
-        </h1>
-        <h1>
+        </h2>
+        <h2>
           {
             <NavLink activeStyle={{ color: "grey" }} to="/resume">
-               {t("resume.title")}
+              {t("resume.title")}
             </NavLink>
           }
-        </h1>
-        <h1>
+        </h2>
+        <h2>
           {
             <NavLink activeStyle={{ color: "grey" }} to="/projects">
-               {t("projects.title")}
+              {t("projects.title")}
             </NavLink>
           }
-        </h1>
-        <h1>
+        </h2>
+        <h2>
           {
             <NavLink activeStyle={{ color: "grey" }} to="/contact">
-               {t("contact.title")}
+              {t("contact.title")}
             </NavLink>
           }
-        </h1>
+        </h2>
       </div>
-      <button id="navToggler" onClick={toggleNav} />
     </div>
   );
 };

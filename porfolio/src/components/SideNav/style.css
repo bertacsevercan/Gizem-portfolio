@@ -24,14 +24,15 @@
 }
 
 #navToggler {
-  height: 50px;
-  border-top-right-radius: 10rem;
-  border-bottom-right-radius: 9rem;
-  width: 10px;
-  position: absolute;
-  outline: none;
-  z-index: 1;
-  background-color: rgba(64, 194, 133, 0.693);
-  border-color: rgba(64, 194, 133, 0.693);
-  border-left: 0;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  position: fixed;
+}
+
+#navToggler:hover {
+  color: wheat;
 }
