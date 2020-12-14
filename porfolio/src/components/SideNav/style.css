@@ -1,5 +1,15 @@
 .sideNav {
   width: 20%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: goldenrod;
+}
+
+.navLinks {
+  padding-bottom: 1rem;
+}
+
+#logo {
+  padding-top: 1rem;
 }
