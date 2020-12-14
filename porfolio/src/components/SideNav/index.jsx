@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-// import i18next from "i18next";
+import i18next from "i18next";
 import "./style.css";
 
 const SideNav = ({ setMainWidth }) => {
   const { t } = useTranslation();
   const [navWidth, setNavWidth] = useState("20%");
+  // const [expanded, setExpanded] = useState(false);
 
   const toggleNav = () => {
     if (navWidth === 0) {
@@ -15,6 +16,14 @@ const SideNav = ({ setMainWidth }) => {
     } else {
       setNavWidth(0);
       setMainWidth("80%");
+    }
+  };
+
+  const changeLanguage = () => {
+    if (i18next.language === "en") {
+      i18next.changeLanguage("tr");
+    } else {
+      i18next.changeLanguage("en");
     }
   };
 
@@ -29,7 +38,9 @@ const SideNav = ({ setMainWidth }) => {
         </div>
       </div>
       <div className="navLinks">
-        <h4>TR/EN</h4>
+        <button onClick={changeLanguage} id="worldButton">
+          <h4>&#127760;</h4>
+        </button>
         <h4>
           {
             <NavLink activeStyle={{ color: "grey" }} exact to="/">

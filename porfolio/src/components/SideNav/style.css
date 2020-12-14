@@ -27,6 +27,12 @@
   padding-top: 1rem;
 }
 
+#worldButton {
+  background-color: unset;
+  border: none;
+  outline: none;
+}
+
 #navToggler {
   font-size: 20px;
   cursor: pointer;
@@ -35,6 +41,7 @@
   padding: 10px 15px;
   border: none;
   position: relative;
+  outline: none;
 }
 
 #navToggler:hover {
