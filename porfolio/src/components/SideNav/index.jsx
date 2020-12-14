@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import {useTranslation} from "react-i18next";
+// import i18next from "i18next";
 import "./style.css";
 
 const SideNav = ({ setMainWidth }) => {
+  const {t} = useTranslation();
   const [navWidth, setNavWidth] = useState("20%");
 
   const toggleNav = () => {
@@ -25,28 +28,28 @@ const SideNav = ({ setMainWidth }) => {
         <h1>
           {
             <NavLink activeStyle={{ color: "grey" }} exact to="/">
-              Home
+              {t("home.title")}
             </NavLink>
           }
         </h1>
         <h1>
           {
             <NavLink activeStyle={{ color: "grey" }} to="/resume">
-              Resume
+               {t("resume.title")}
             </NavLink>
           }
         </h1>
         <h1>
           {
             <NavLink activeStyle={{ color: "grey" }} to="/projects">
-              Projects
+               {t("projects.title")}
             </NavLink>
           }
         </h1>
         <h1>
           {
             <NavLink activeStyle={{ color: "grey" }} to="/contact">
-              Contact
+               {t("contact.title")}
             </NavLink>
           }
         </h1>
@@ -57,3 +60,33 @@ const SideNav = ({ setMainWidth }) => {
 };
 
 export default SideNav;
+
+/*
+<NavDropdown
+              title={<MdLanguage style={{ transform: "scale(1.5)" }} />}
+              drop="left"
+              id="basic-nav-dropdown"
+            >
+              <NavDropdown.Item
+                id="tr"
+                onClick={() => {
+                  i18next.changeLanguage("tr");
+                  setExpanded(false);
+                }}
+                href="#action/3.1"
+              >
+                {t("navbar.languages.tr")}
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item
+                id="en"
+                onClick={() => {
+                  i18next.changeLanguage("en");
+                  setExpanded(false);
+                }}
+                href="#action/3.2"
+              >
+                {t("navbar.languages.en")}
+              </NavDropdown.Item>
+            </NavDropdown>
+            */
