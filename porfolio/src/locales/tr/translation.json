@@ -1,3 +1,18 @@
 {
-  "test": "Hello"
+  "home": {
+    "title": "HOME"
+  },
+  "resume": {
+    "title": "RESUME"
+  },
+  "projects": {
+    "title": "PROJECTS"
+  },
+  "contact": {
+    "title": "CONTACT"
+  },
+  "language": {
+    "en": "EN",
+    "tr": "TR"
+  }
 }
