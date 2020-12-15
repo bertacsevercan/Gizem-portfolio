@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import MainContent from "./containers/MainContent";
 import SideNav from "./components/SideNav";
-import RightSider from "./components/RightSider";
+import RightSider from "./containers/RightSider";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";
 import { useState } from "react";

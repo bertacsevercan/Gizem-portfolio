@@ -1,0 +1,13 @@
+.projectButton {
+  width: 15%;
+  height: 10%;
+  box-shadow: 2px 1px black;
+}
+
+#arrow {
+  color: wheat;
+  text-align: center;
+  padding-top: 0.2em;
+  opacity: 0.7;
+  text-shadow: 2px 2px 8px black;
+}
