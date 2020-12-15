@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
-import { GrLanguage } from "react-icons/gr";
+import { MdLanguage } from "react-icons/md";
 import "./style.css";
 
 const SideNav = ({ setMainWidth }) => {
@@ -38,37 +38,44 @@ const SideNav = ({ setMainWidth }) => {
           &#9776;
         </button>
         <div id="logo">
-          <h4>LOGO</h4>
+          <h4>
+            {" "}
+            {
+              <NavLink exact to="/">
+                LOGO
+              </NavLink>
+            }
+          </h4>
         </div>
       </div>
       <div className="navLinks">
         <button title={language} onClick={changeLanguage} id="worldButton">
-          <h4>{<GrLanguage />}</h4>
+          <h4>{<MdLanguage />}</h4>
         </button>
         <h4>
           {
-            <NavLink activeStyle={{ color: "grey" }} exact to="/">
+            <NavLink activeStyle={{ color: "wheat" }} exact to="/">
               {t("home.title")}
             </NavLink>
           }
         </h4>
         <h4>
           {
-            <NavLink activeStyle={{ color: "grey" }} to="/resume">
+            <NavLink activeStyle={{ color: "wheat" }} to="/resume">
               {t("resume.title")}
             </NavLink>
           }
         </h4>
         <h4>
           {
-            <NavLink activeStyle={{ color: "grey" }} to="/projects">
+            <NavLink activeStyle={{ color: "wheat" }} to="/projects">
               {t("projects.title")}
             </NavLink>
           }
         </h4>
         <h4>
           {
-            <NavLink activeStyle={{ color: "grey" }} to="/contact">
+            <NavLink activeStyle={{ color: "wheat" }} to="/contact">
               {t("contact.title")}
             </NavLink>
           }

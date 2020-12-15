@@ -16,7 +16,7 @@
 }
 
 .navLinks a:hover {
-  color: grey;
+  color: wheat;
 }
 
 .navLinks h4 {
@@ -25,6 +25,16 @@
 
 #logo {
   padding-top: 1rem;
+  position: relative;
+}
+
+#logo a {
+  text-decoration: none;
+  color: black;
+}
+
+#logo a:hover {
+  color: wheat;
 }
 
 #worldButton {
@@ -34,7 +44,7 @@
 }
 
 #worldButton svg:hover {
-  box-shadow: 1px 1px grey;
+  color: wheat;
 }
 
 #navToggler {
