@@ -16,10 +16,12 @@ const ProjectButton = ({ color }) => {
     setArrowVisible("block");
   };
 
+  
+
   return (
     <div
       onMouseLeave={hideElements}
-      onMouseEnter={showElements}
+      onMouseEnter={() => setTimeout(showElements, 250)}
       className="projectButton"
       style={{ backgroundColor: color }}
     >
