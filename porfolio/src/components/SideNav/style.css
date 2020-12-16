@@ -26,6 +26,7 @@
 #logo {
   padding-top: 1rem;
   position: relative;
+  z-index: 1;
 }
 
 #logo a {
@@ -56,6 +57,7 @@
   border: none;
   position: relative;
   outline: none;
+  z-index: 1;
 }
 
 #navToggler:hover {

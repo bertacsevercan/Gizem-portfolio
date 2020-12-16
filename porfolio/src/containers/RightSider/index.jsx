@@ -12,8 +12,8 @@ for (let i = 0; i < 10; i++) {
 const RightSider = () => {
   return (
     <div className="rightSider">
-      {colors.map((color) => (
-        <ProjectButton color={color} />
+      {colors.map((color, index) => (
+        <ProjectButton id={index} color={color} />
       ))}
     </div>
   );

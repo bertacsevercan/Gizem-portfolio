@@ -10,6 +10,11 @@
   background-color: green;
 }
 
+#projectName {
+  color: unset;
+  text-decoration: none;
+}
+
 #arrow {
   color: wheat;
   text-align: center;

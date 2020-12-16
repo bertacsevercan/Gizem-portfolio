@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 const ProjectButton = ({ color }) => {
@@ -23,9 +24,9 @@ const ProjectButton = ({ color }) => {
       style={{ backgroundColor: color }}
     >
       <button id="button">
-        <p style={{ display: nameVisible }} id="projectName">
-          Project Name
-        </p>
+        <Link to="/project" style={{ display: nameVisible }} id="projectName">
+          <b>Project Name</b>
+        </Link>
         <h1 style={{ display: arrowVisible }} id="arrow">
           &#10095;
         </h1>

@@ -4,6 +4,7 @@ import Home from "../Home";
 import Resume from "../Resume";
 import Contact from "../Contact";
 import Projects from "../Projects";
+import SingleProject from "../SingleProject";
 import "./style.css";
 
 const MainContent = ({ mainWidth }) => {
@@ -13,6 +14,7 @@ const MainContent = ({ mainWidth }) => {
       <Route path="/resume" component={Resume} />
       <Route path="/contact" component={Contact} />
       <Route path="/projects" component={Projects} />
+      <Route path="/project" component={SingleProject} />
     </div>
   );
 };
