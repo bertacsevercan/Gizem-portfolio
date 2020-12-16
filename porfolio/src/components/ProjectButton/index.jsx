@@ -31,9 +31,9 @@ const ProjectButton = ({ routeId, color }) => {
         >
           <b>Project Name</b>
         </a>
-        <h1 style={{ display: arrowVisible }} id="arrow">
+        <h3 style={{ display: arrowVisible }} id="arrow">
           &#10095;
-        </h1>
+        </h3>
       </button>
     </div>
   );
