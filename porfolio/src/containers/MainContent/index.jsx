@@ -14,7 +14,7 @@ const MainContent = ({ mainWidth }) => {
       <Route path="/resume" component={Resume} />
       <Route path="/contact" component={Contact} />
       <Route path="/projects" component={Projects} />
-      <Route path="/project" component={SingleProject} />
+      <Route path="/project/:id" component={SingleProject} />
     </div>
   );
 };

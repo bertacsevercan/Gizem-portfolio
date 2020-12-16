@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+/* import { Link } from "react-router-dom"; */
 import "./style.css";
 
-const ProjectButton = ({ color }) => {
+const ProjectButton = ({ routeId, color }) => {
   const [nameVisible, setNameVisible] = useState("none");
   const [arrowVisible, setArrowVisible] = useState("block");
 
@@ -16,19 +16,21 @@ const ProjectButton = ({ color }) => {
     setArrowVisible("block");
   };
 
-  
-
   return (
     <div
-      onMouseLeave={hideElements}
+      onMouseLeave={() => setTimeout(hideElements, 250)}
       onMouseEnter={() => setTimeout(showElements, 250)}
       className="projectButton"
       style={{ backgroundColor: color }}
     >
       <button id="button">
-        <Link to="/project" style={{ display: nameVisible }} id="projectName">
+        <a
+          href={"/project/" + routeId}
+          style={{ display: nameVisible }}
+          id="projectName"
+        >
           <b>Project Name</b>
-        </Link>
+        </a>
         <h1 style={{ display: arrowVisible }} id="arrow">
           &#10095;
         </h1>

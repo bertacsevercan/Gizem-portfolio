@@ -1,11 +1,9 @@
 import React from "react";
-import ProjectCarousel from "../../components/ProjectCarousel";
+import Carousels from "../../Carousels";
 
-const SingleProject = () => {
+const SingleProject = (props) => {
   return (
-    <div className="singleProject">
-      <ProjectCarousel />
-    </div>
+    <div className="singleProject">{Carousels[props.match.params.id]}</div>
   );
 };
 

@@ -13,7 +13,7 @@ const RightSider = () => {
   return (
     <div className="rightSider">
       {colors.map((color, index) => (
-        <ProjectButton id={index} color={color} />
+        <ProjectButton key={index} routeId={index} color={color} />
       ))}
     </div>
   );
