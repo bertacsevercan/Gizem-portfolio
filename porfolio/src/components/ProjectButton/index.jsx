@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-/* import { Link } from "react-router-dom"; */
+import { projectInfo } from "../../assets";
 import "./style.css";
 
 const ProjectButton = ({ routeId, color }) => {
@@ -29,7 +29,7 @@ const ProjectButton = ({ routeId, color }) => {
           style={{ display: nameVisible }}
           id="projectName"
         >
-          <b>Project Name</b>
+          <b>{projectInfo.title[routeId]}</b>
         </a>
         <h3 style={{ display: arrowVisible }} id="arrow">
           &#10095;
