@@ -18,8 +18,8 @@ const ProjectButton = ({ routeId, color }) => {
 
   return (
     <div
-      onMouseLeave={() => setTimeout(hideElements, 250)}
-      onMouseEnter={() => setTimeout(showElements, 250)}
+      onMouseLeave={() => setTimeout(hideElements, 300)}
+      onMouseEnter={() => setTimeout(showElements, 300)}
       className="projectButton"
       style={{ backgroundColor: color }}
     >

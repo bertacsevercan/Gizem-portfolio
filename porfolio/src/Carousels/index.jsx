@@ -13,6 +13,11 @@ const carousels = [
       <Carousel.Item key={index}>{asset}</Carousel.Item>
     ))}
   </Carousel>,
+  <Carousel>
+    {CarouselPictures.project2.map((asset, index) => (
+      <Carousel.Item key={index}>{asset}</Carousel.Item>
+    ))}
+  </Carousel>,
 ];
 
 export default carousels;

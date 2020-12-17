@@ -4,6 +4,7 @@
   justify-content: space-between;
   background-color: goldenrod;
   transition: 1s ease;
+  border: 1px solid black;
 }
 
 .navLinks {
