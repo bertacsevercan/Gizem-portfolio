@@ -18,4 +18,9 @@ const colors = [
   "#A69CC1",
 ];
 
-export { colors };
+const projectInfo = {
+  title: ["Project Name-1", "Project Name-2"],
+  text: ["This is a description.", "This is a description."],
+};
+
+export { colors, projectInfo };
