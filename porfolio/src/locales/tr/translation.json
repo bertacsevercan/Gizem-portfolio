@@ -9,7 +9,24 @@
     "title": "Projeler"
   },
   "contact": {
-    "title": "İletişim"
+    "title": "Contact",
+    "titles": {
+      "title0": "Contact me",
+      "title1": "Other contact information"
+    },
+    "labels": {
+      "label0": "Your email adress",
+      "label1": "Your full name",
+      "label2": "Subject",
+      "label3": "Your message"
+    },
+    "placeholders": {
+      "holder0": "john.doe@mail.com",
+      "holder1": "John Doe",
+      "holder2": "What is it about?",
+      "holder3": "Hello, Gizem!"
+    },
+    "button": "Send"
   },
   "languages": {
     "en": "EN",
