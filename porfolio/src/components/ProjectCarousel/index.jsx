@@ -1,21 +1,13 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import images from "./assets";
+import CarouselPictures from "../../CarouselPictures";
 import "./style.css";
 
-const ProjectCarousel = () => {
-  //map this!
-  const assetObjList = [];
-  for (let i = 0; i < images.project0.length; i++) {
-    assetObjList.push({
-      img: images.project0[i],
-    });
-  }
-
+const ProjectCarousel = ({ projectId }) => {
   return (
     <div className="projectCarousel">
       <Carousel>
-        {images.project0.map((asset, index) => (
+        {CarouselPictures[projectId].map((asset, index) => (
           <Carousel.Item key={index}>{asset}</Carousel.Item>
         ))}
       </Carousel>

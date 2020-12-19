@@ -1,8 +1,8 @@
 import React from "react";
 import test from "../images/test.png";
 
-const images = {
-  project0: [
+const images = [
+  [
     <img
       height="550px"
       className="d-block w-100"
@@ -22,7 +22,7 @@ const images = {
       alt="Third slide"
     />,
   ],
-  project1: [
+  [
     <img
       height="550px"
       className="d-block w-100"
@@ -42,7 +42,7 @@ const images = {
       alt="Third slide"
     />,
   ],
-  project2: [
+  [
     <img
       height="550px"
       className="d-block w-100"
@@ -62,6 +62,6 @@ const images = {
       alt="Third slide"
     />,
   ],
-};
+];
 
 export default images;

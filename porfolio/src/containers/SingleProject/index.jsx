@@ -1,7 +1,7 @@
 import React from "react";
-import Carousels from "../../Carousels";
 import * as assets from "../../assets";
 import ProjectInfo from "../../components/ProjectInfo";
+import ProjectCarousel from "../../components/ProjectCarousel";
 import "./style.css";
 
 const SingleProject = (props) => {
@@ -11,7 +11,7 @@ const SingleProject = (props) => {
       className="singleProject"
       style={{ backgroundColor: assets.colors[ID] }}
     >
-      <div className="carouselWrapper">{Carousels[ID]}</div>
+      <ProjectCarousel projectId={ID} />
       <ProjectInfo projectId={ID} />
     </div>
   );
