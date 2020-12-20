@@ -11,7 +11,7 @@ const ContactInfo = () => {
         <p>
           <b>{t("contact.info.heads.head0")}</b>
         </p>
-        <p>{t("contact.info.text")}</p>
+        <p>{t("contact.info.texts.text0")}</p>
       </div>
       <div id="phone">
         <p>
@@ -34,7 +34,7 @@ const ContactInfo = () => {
             id="linkIn"
             target="_blank"
             rel="noreferrer"
-            title={t("contact.texts.text2")}
+            title={t("contact.info.texts.text1")}
             href="#"
           >
             {" "}
@@ -45,7 +45,7 @@ const ContactInfo = () => {
           id="instagram"
           target="_blank"
           rel="noreferrer"
-          title={t("contact.texts.text2")}
+          title={t("contact.info.texts.text2")}
           href="#"
         >
           {" "}
