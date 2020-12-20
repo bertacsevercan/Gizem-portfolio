@@ -13,7 +13,8 @@ const ContactForm = () => {
   const [alertDangerVisible, setAlertDangerVisible] = useState(false);
 
   const alertSuccess = () => {
-    // add timeout for alert to close itself
+    setTimeout(() => setAlertSuccessVisible(false), 5000);
+
     return (
       <>
         <Alert
@@ -22,12 +23,14 @@ const ContactForm = () => {
           dismissible={true}
           variant="success"
         >
-          Your message has been sent successfully!
+          {t("contact.alerts.alert0")}
         </Alert>
       </>
     );
   };
   const alertDanger = () => {
+    setTimeout(() => setAlertDangerVisible(false), 5000);
+
     return (
       <>
         <Alert
@@ -36,7 +39,7 @@ const ContactForm = () => {
           dismissible={true}
           variant="danger"
         >
-          Oops! Something went wrong...
+          {t("contact.alerts.alert1")}
         </Alert>
       </>
     );
@@ -48,7 +51,7 @@ const ContactForm = () => {
     emailjs
       .sendForm(
         "bertac_gmail_service",
-        "gizem_template",
+        "gizem_template_",
         e.target,
         "user_icsRtRZUExukm03DQEvYf"
       )
