@@ -4,7 +4,13 @@
     "head": "Welcome to my world!"
   },
   "resume": {
-    "title": "Resume"
+    "title": "Resume",
+    "heads": {
+      "head0": "Employment History",
+      "head1": "Education",
+      "head2": "Technical Skills",
+      "head3": "Languages"
+    }
   },
   "projects": {
     "title": "Projects"

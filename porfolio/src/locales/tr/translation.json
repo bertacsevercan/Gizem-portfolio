@@ -4,7 +4,13 @@
     "head": "Dünyama hoşgeldiniz!"
   },
   "resume": {
-    "title": "Özgeçmiş"
+    "title": "Özgeçmiş",
+    "heads": {
+      "head0": "İş Deneyimi",
+      "head1": "Eğitim",
+      "head2": "Teknik Beceriler",
+      "head3": "Diller"
+    }
   },
   "projects": {
     "title": "Projeler"

@@ -1,14 +1,17 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
+import { useTranslation } from "react-i18next";
 import "./style.css";
 
 const Resume = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="resume">
       <div className="timeline-wrapper">
         <div className="employment">
           <p>
-            <b>Employment History</b>
+            <b>{t("resume.heads.head0")}</b>
           </p>
         </div>
         <div id="lineVert">
@@ -16,10 +19,16 @@ const Resume = () => {
           <br />
           <p className="milestone" />
           <p className="milestone" />
+          <p className="milestone" />
+          <p className="milestone" />
+          <p className="milestone" />
+          <p className="milestone" />
+          <p className="milestone" />
+          <p className="milestone" />
         </div>
         <div className="education">
           <p>
-            <b>Education</b>
+            <b>{t("resume.heads.head1")}</b>
           </p>
         </div>
       </div>
@@ -31,10 +40,10 @@ const Resume = () => {
           thumbnail
         />
         <p>
-          <b>Technical Skills</b>
+          <b>{t("resume.heads.head2")}</b>
         </p>
         <p>
-          <b>Languages</b>
+          <b>{t("resume.heads.head3")}</b>
         </p>
       </div>
     </div>
