@@ -11,22 +11,26 @@
   "contact": {
     "title": "Contact",
     "titles": {
-      "title0": "Contact me",
-      "title1": "Other contact information"
+      "title0": "Benimle iletişime geçin",
+      "title1": "Diğer iletişim bilgileri"
     },
     "labels": {
-      "label0": "Your email adress",
-      "label1": "Your full name",
-      "label2": "Subject",
-      "label3": "Your message"
+      "label0": "E-posta adresiniz",
+      "label1": "Tam adınız",
+      "label2": "Konu",
+      "label3": "Mesajınız"
     },
     "placeholders": {
-      "holder0": "john.doe@mail.com",
-      "holder1": "John Doe",
-      "holder2": "What is it about?",
-      "holder3": "Hello, Gizem!"
+      "holder0": "ali.veli@mail.com",
+      "holder1": "Ali Veli",
+      "holder2": "Ne hakkında?",
+      "holder3": "Merhaba, Gizem!"
     },
-    "button": "Send"
+    "button": "Gönder",
+    "alerts": {
+      "alert0": "Mesajınız başarıyla gönderildi!",
+      "alert1": "Eyvah! Bir şey ters gitti!"
+    }
   },
   "languages": {
     "en": "EN",

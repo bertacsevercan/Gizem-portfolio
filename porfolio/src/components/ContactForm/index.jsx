@@ -13,6 +13,7 @@ const ContactForm = () => {
   const [alertDangerVisible, setAlertDangerVisible] = useState(false);
 
   const alertSuccess = () => {
+    // add timeout for alert to close itself
     return (
       <>
         <Alert

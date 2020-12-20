@@ -26,7 +26,11 @@
       "holder2": "What is it about?",
       "holder3": "Hello, Gizem!"
     },
-    "button": "Send"
+    "button": "Send",
+    "alerts": {
+      "alert0": "Your message has been sent successfully!",
+      "alert1": "Oops! Something went wrong..."
+    }
   },
   "languages": {
     "en": "EN",
