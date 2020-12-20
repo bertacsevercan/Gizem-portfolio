@@ -1,0 +1,13 @@
+.resume {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#profilePic {
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.text-wrapper {
+}
