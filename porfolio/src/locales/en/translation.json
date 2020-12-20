@@ -1,6 +1,7 @@
 {
   "home": {
-    "title": "Home"
+    "title": "Home",
+    "head": "Welcome to my world!"
   },
   "resume": {
     "title": "Resume"

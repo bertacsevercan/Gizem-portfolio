@@ -1,6 +1,7 @@
 {
   "home": {
-    "title": "Anasayfa"
+    "title": "Anasayfa",
+    "head": "Dünyama hoşgeldiniz!"
   },
   "resume": {
     "title": "Özgeçmiş"
