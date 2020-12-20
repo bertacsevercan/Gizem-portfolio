@@ -30,6 +30,19 @@
     "alerts": {
       "alert0": "Your message has been sent successfully!",
       "alert1": "Oops! Something went wrong..."
+    },
+    "info": {
+      "heads": {
+        "head0": "Address",
+        "head1": "Phone",
+        "head2": "Email",
+        "head3": "Social media"
+      },
+      "texts": {
+        "text0" :  "Istanbul/Turkey",
+        "text1" : "Go to my LinkedIn profile",
+        "text2" : "Go to my Instagram profile"
+      }
     }
   },
   "languages": {

@@ -67,7 +67,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact">
+    <div className="contactForm">
       {alertSuccessVisible ? alertSuccess() : null}
       {alertDangerVisible ? alertDanger() : null}
       <h1>

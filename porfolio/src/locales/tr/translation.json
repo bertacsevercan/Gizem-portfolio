@@ -30,6 +30,19 @@
     "alerts": {
       "alert0": "Mesajınız başarıyla gönderildi!",
       "alert1": "Eyvah! Bir şey ters gitti!"
+    },
+    "info": {
+      "heads": {
+        "head0": "Adres",
+        "head1": "Telefon",
+        "head2": "E-posta",
+        "head3": "Sosyal medya"
+      },
+      "texts": {
+        "text0" :  "İstanbul/Türkiye",
+        "text1" : "LinkedIn profilime git",
+        "text2" : "Instagram profilime git"
+      }
     }
   },
   "languages": {
