@@ -1,0 +1,23 @@
+.contactInfo {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.contactInfo h1 {
+  text-align: left;
+  padding-bottom: 0.5em;
+}
+
+.contactInfo-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#linkIn {
+  text-decoration: none;
+  color: blue;
+}
+
+#instagram {
+  text-decoration: none;
+  color: yellow;
+}

@@ -1,4 +1,11 @@
 .contactForm {
   text-align: left;
   padding: 1rem;
+  position: relative;
+}
+
+.customAlert {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
 }

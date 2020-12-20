@@ -18,10 +18,11 @@ const ContactForm = () => {
     return (
       <>
         <Alert
-          className="alert"
+          className="customAlert"
           onClose={() => setAlertSuccessVisible(false)}
           dismissible={true}
           variant="success"
+          style={{ zIndex: 1, position: "fixed" }}
         >
           {t("contact.alerts.alert0")}
         </Alert>
@@ -34,7 +35,7 @@ const ContactForm = () => {
     return (
       <>
         <Alert
-          className="alert"
+          className="customAlert"
           onClose={() => setAlertDangerVisible(false)}
           dismissible={true}
           variant="danger"
@@ -51,7 +52,7 @@ const ContactForm = () => {
     emailjs
       .sendForm(
         "bertac_gmail_service",
-        "gizem_template_",
+        "gizem_template",
         e.target,
         "user_icsRtRZUExukm03DQEvYf"
       )

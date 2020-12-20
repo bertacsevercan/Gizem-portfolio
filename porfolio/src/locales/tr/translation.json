@@ -12,7 +12,7 @@
     "title": "Contact",
     "titles": {
       "title0": "Benimle iletişime geçin",
-      "title1": "Diğer iletişim bilgileri"
+      "title1": "İletişim bilgileri"
     },
     "labels": {
       "label0": "E-posta adresiniz",
@@ -39,9 +39,9 @@
         "head3": "Sosyal medya"
       },
       "texts": {
-        "text0" :  "İstanbul/Türkiye",
-        "text1" : "LinkedIn profilime git",
-        "text2" : "Instagram profilime git"
+        "text0": "İstanbul/Türkiye",
+        "text1": "LinkedIn profilime git",
+        "text2": "Instagram profilime git"
       }
     }
   },

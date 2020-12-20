@@ -12,7 +12,7 @@
     "title": "Contact",
     "titles": {
       "title0": "Contact me",
-      "title1": "Other contact information"
+      "title1": "Contact information"
     },
     "labels": {
       "label0": "Your email adress",
@@ -39,9 +39,9 @@
         "head3": "Social media"
       },
       "texts": {
-        "text0" :  "Istanbul/Turkey",
-        "text1" : "Go to my LinkedIn profile",
-        "text2" : "Go to my Instagram profile"
+        "text0": "Istanbul/Turkey",
+        "text1": "Go to my LinkedIn profile",
+        "text2": "Go to my Instagram profile"
       }
     }
   },
