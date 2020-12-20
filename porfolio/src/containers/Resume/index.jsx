@@ -5,13 +5,23 @@ import "./style.css";
 const Resume = () => {
   return (
     <div className="resume">
-      <div className="text-wrapper">
-        <p>
-          <b>Employment History</b>
-        </p>
-        <p>
-          <b>Education</b>
-        </p>
+      <div className="timeline-wrapper">
+        <div className="employment">
+          <p>
+            <b>Employment History</b>
+          </p>
+        </div>
+        <div id="lineVert">
+          <br />
+          <br />
+          <p className="milestone" />
+          <p className="milestone" />
+        </div>
+        <div className="education">
+          <p>
+            <b>Education</b>
+          </p>
+        </div>
       </div>
       <div className="img-text-wrapper">
         <Image
