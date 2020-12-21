@@ -2,6 +2,7 @@
   padding: 1rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #profilePic {
@@ -28,39 +29,5 @@
 
 .education {
   padding-left: 1rem;
+  width: 6.25rem;
 }
-
-/* .milestone {
-  width: 20px;
-  height: 20px;
-  border: 4px solid orange;
-  border-radius: 50%;
-  background-color: white;
-  position: absolute;
-  z-index: 1;
-  right: 85px;
-}
-
-.milestone.first {
-  top: 100px;
-}
-
-.milestone.second {
-  top: 200px;
-}
-
-.milestone.third {
-  top: 300px;
-}
-
-.milestone.fourth {
-  top: 400px;
-}
-
-.milestone.fifth {
-  top: 500px;
-}
-
-.milestone.sixth {
-  top: 600px;
-} */

@@ -52,9 +52,25 @@ const Resume = () => {
         <p>
           <b>{t("resume.heads.head2")}</b>
         </p>
+        <ul>
+          <li>Technical skill</li>
+          <li>Technical skill</li>
+          <li>Technical skill</li>
+          <li>Technical skill</li>
+          <li>Technical skill</li>
+          <li>Technical skill</li>
+          <li>Technical skill</li>
+          <li>Technical skill</li>
+          <li>Technical skill</li>
+          <li>Technical skill</li>
+        </ul>
         <p>
           <b>{t("resume.heads.head3")}</b>
         </p>
+        <ul>
+          <li>A language</li>
+          <li>A language</li>
+        </ul>
       </div>
     </div>
   );
