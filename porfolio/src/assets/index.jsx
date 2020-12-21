@@ -27,4 +27,25 @@ const projectInfo = {
   ],
 };
 
-export { colors, projectInfo };
+const overlayProps = {
+  direction: ["left", "left", "right", "right", "right", "right"],
+  classNames: ["first", "second", "third", "fourth", "fifth", "sixth"],
+  title: [
+    "University",
+    "University",
+    "Internship",
+    "Internship",
+    "Internship",
+    "Internship",
+  ],
+  content: [
+    "And here's some amazing content. It's very engaging right?",
+    "And here's some amazing content. It's very engaging right?",
+    "And here's some amazing content. It's very engaging right?",
+    "And here's some amazing content. It's very engaging right?",
+    "And here's some amazing content. It's very engaging right?",
+    "And here's some amazing content. It's very engaging right?",
+  ],
+};
+
+export { colors, projectInfo, overlayProps };

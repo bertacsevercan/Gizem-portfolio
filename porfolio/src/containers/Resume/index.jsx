@@ -2,41 +2,20 @@ import React from "react";
 import Image from "react-bootstrap/Image";
 import TimelinePopover from "../../components/TimelinePopover";
 import { useTranslation } from "react-i18next";
+import { overlayProps } from "../../assets";
 import "./style.css";
 
 const Resume = () => {
   const { t } = useTranslation();
 
-  const overlayProps = [
-    {
-      direction: ["left", "left", "right", "right", "right", "right"],
-      classNames: ["first", "second", "third", "fourth", "fifth", "sixth"],
-      title: [
-        "University",
-        "University",
-        "Internship",
-        "Internship",
-        "Internship",
-        "Internship",
-      ],
-      content: [
-        "And here's some amazing content. It's very engaging right?",
-        "And here's some amazing content. It's very engaging right?",
-        "And here's some amazing content. It's very engaging right?",
-        "And here's some amazing content. It's very engaging right?",
-        "And here's some amazing content. It's very engaging right?",
-        "And here's some amazing content. It's very engaging right?",
-      ],
-    },
-  ];
   const popContent = [];
 
-  for (let i = 0; i < overlayProps[0].direction.length; i++) {
+  for (let i = 0; i < overlayProps.direction.length; i++) {
     popContent.push({
-      direction: overlayProps[0].direction[i],
-      className: overlayProps[0].classNames[i],
-      title: overlayProps[0].title[i],
-      content: overlayProps[0].content[i],
+      direction: overlayProps.direction[i],
+      className: overlayProps.classNames[i],
+      title: overlayProps.title[i],
+      content: overlayProps.content[i],
     });
   }
 
