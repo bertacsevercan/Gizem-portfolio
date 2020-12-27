@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: goldenrod;
+  background: url("../../images/siderBg.png") center;
+  background-size: cover;
   transition: 1s ease;
   border: 1px solid black;
 }

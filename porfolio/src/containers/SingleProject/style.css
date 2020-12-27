@@ -1,3 +1,5 @@
 .singleProject {
+  background: url("../../images/whiteEffect.png") center;
+  background-size: cover;
   height: 100%;
 }
