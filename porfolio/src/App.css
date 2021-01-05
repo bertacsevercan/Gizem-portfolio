@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap");
+
 .App {
   text-align: center;
   display: flex;
   max-height: 100vh;
   height: 100vh;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
 }
