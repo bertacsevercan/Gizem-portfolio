@@ -19,12 +19,6 @@ const ContactInfo = () => {
           </p>
           <p>{t("contact.info.texts.text0")}</p>
         </div>
-        <div id="phone">
-          <p>
-            <b>{t("contact.info.heads.head1")}</b>
-          </p>
-          <p>+555-444-333</p>
-        </div>
         <div id="email">
           <p>
             <b>{t("contact.info.heads.head2")}</b>
