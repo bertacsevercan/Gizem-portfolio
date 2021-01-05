@@ -36,8 +36,9 @@
   color: black;
 }
 
-#logo a:hover {
-  color: wheat;
+#logo img:hover {
+  box-shadow: 0.5px 0.5px;
+  border-radius: 10px;
 }
 
 #worldButton {

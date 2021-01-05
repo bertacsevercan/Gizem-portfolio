@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 import { MdLanguage } from "react-icons/md";
+import logoGe from "../../images/logoGe.png";
+import Image from "react-bootstrap/Image";
 import "./style.css";
 
 const SideNav = ({ setMainWidth }) => {
@@ -38,14 +40,9 @@ const SideNav = ({ setMainWidth }) => {
           &#9776;
         </button>
         <div id="logo">
-          <h4>
-            {" "}
-            {
-              <NavLink exact to="/">
-                LOGO
-              </NavLink>
-            }
-          </h4>
+          <NavLink exact to="/">
+            <Image src={logoGe} height="100px" className="w-15" alt="logo" />
+          </NavLink>
         </div>
       </div>
       <div className="navLinks">
