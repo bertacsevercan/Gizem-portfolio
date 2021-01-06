@@ -10,6 +10,7 @@ const TimelinePopover = ({ title, className, direction, content }) => {
         trigger="hover"
         key={className}
         placement={direction}
+        // defaultShow
         overlay={
           <Popover id={`popover-positioned-${direction}`}>
             <Popover.Title as="h3">{title}</Popover.Title>

@@ -15,11 +15,12 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  margin-left: 10rem;
 }
 
 #lineVert {
   border: 2px solid black;
-  height: 650px;
+  height: 700px;
   background-color: wheat;
 }
 
@@ -31,4 +32,10 @@
 .education {
   padding-left: 1rem;
   width: 93px;
+}
+
+.img-text-wrapper ul {
+  width: fit-content;
+  margin: 0 auto 1rem auto;
+  padding-left: 0;
 }
