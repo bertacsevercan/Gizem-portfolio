@@ -2,4 +2,5 @@
   background: url("../../images/mainBg.png") center;
   background-size: cover;
   transition: 1s ease;
+  overflow: auto;
 }

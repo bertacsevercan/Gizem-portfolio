@@ -8,7 +8,6 @@ import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";
 import { useState } from "react";
 // import Footer from "./components/Footer";
-// import ReactGA from "react-ga";
 
 function App() {
   const [mainWidth, setMainWidth] = useState("60%");

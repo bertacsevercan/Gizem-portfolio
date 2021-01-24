@@ -1,0 +1,14 @@
+.projectGallery {
+  padding-bottom: 1rem;
+  background: url("../../images/mainBg.png") center;
+  background-size: cover;
+  overflow-x: auto;
+}
+
+.projectImage {
+  display: flex;
+  justify-content: space-around;
+  overflow-x: auto;
+  background: url("../../images/mainBg.png") center;
+  background-size: cover;
+}

@@ -2,6 +2,11 @@ import React from "react";
 import test from "../images/test.png";
 import test2 from "../images/test2.jpeg";
 
+const imageLinks = [
+  [test, test2, test],
+  [test, test2, test],
+  [test, test2, test],
+];
 const images = [
   [
     <img
@@ -65,4 +70,4 @@ const images = [
   ],
 ];
 
-export default images;
+export { imageLinks, images };
