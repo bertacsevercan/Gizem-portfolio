@@ -11,8 +11,8 @@ const ProjectGallery = ({ color, title, projectId }) => {
       </h4>
 
       <div className="projectImage">
-        {images.imageLinks[projectId].map((image) => (
-          <ProjectBlock image={image} />
+        {images.imageLinks[projectId].map((image, index) => (
+          <ProjectBlock key={index} image={image} />
         ))}
       </div>
     </div>

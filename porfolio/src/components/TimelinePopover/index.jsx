@@ -7,7 +7,7 @@ const TimelinePopover = ({ title, className, direction, content }) => {
   return (
     <>
       <OverlayTrigger
-        trigger="hover"
+        trigger={["hover", "focus"]}
         key={className}
         placement={direction}
         // defaultShow

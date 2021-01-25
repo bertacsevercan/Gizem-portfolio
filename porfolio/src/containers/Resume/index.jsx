@@ -28,8 +28,9 @@ const Resume = () => {
           </p>
         </div>
         <span id="lineVert"></span>
-        {popContent.map((el) => (
+        {popContent.map((el, index) => (
           <TimelinePopover
+            key={index}
             direction={el.direction}
             title={el.title}
             content={el.content}
@@ -45,7 +46,7 @@ const Resume = () => {
       <div className="img-text-wrapper">
         <Image
           id="profilePic"
-          width="30%"
+          width="70%"
           src="https://image.freepik.com/free-vector/architect-concept-illustration_114360-3042.jpg"
           thumbnail
         />
