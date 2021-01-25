@@ -13,13 +13,15 @@ const Home = () => {
         src="https://image.freepik.com/free-vector/architect-concept-illustration_114360-3042.jpg"
         roundedCircle
       />
-      <h1>{t("home.head")}</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis
-        quis numquam consequuntur nobis quos fuga eius incidunt adipisci ea,
-        vero officiis soluta, similique odio molestiae corporis iusto optio cum
-        accusantium?
-      </p>
+      <div className="homeText">
+        <h1>{t("home.head")}</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis
+          quis numquam consequuntur nobis quos fuga eius incidunt adipisci ea,
+          vero officiis soluta, similique odio molestiae corporis iusto optio
+          cum accusantium?
+        </p>
+      </div>
     </div>
   );
 };

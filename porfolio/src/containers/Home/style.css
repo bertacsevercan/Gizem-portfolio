@@ -1,3 +1,23 @@
 .home {
   padding: 1rem;
+  background: url("../../images/buildings.jpg") center;
+  background-size: cover;
+  height: 100%;
+}
+
+.home h1 {
+  padding: 1rem 0;
+}
+
+.homeText {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  margin: 3rem 2rem 3rem 2rem;
+  background: url("../../images/mainBg.png") center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.homeText p {
+  padding-bottom: 1rem;
 }
