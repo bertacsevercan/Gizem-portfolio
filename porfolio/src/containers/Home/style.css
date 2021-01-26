@@ -1,8 +1,10 @@
 .home {
-  padding: 1rem;
+  /* padding: 1rem; */
   background: url("../../images/buildings.jpg") center;
   background-size: cover;
   height: 100%;
+  align-items: center;
+  display: flex;
 }
 
 .home h1 {
@@ -12,7 +14,7 @@
 .homeText {
   padding: 0 1rem;
   box-sizing: border-box;
-  margin: 3rem 2rem 3rem 2rem;
+  margin-top: 3rem;
   background: url("../../images/mainBg.png") center;
   background-size: cover;
   border-radius: 10px;
