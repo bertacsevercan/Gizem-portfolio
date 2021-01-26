@@ -1,5 +1,6 @@
 .projectButton {
   width: 15%;
+  /*   width: 2.7rem; */
   height: 5.86%;
   box-shadow: 2px 1px black;
   transition: width 0.3s ease;
@@ -7,10 +8,11 @@
 
 .projectButton:hover {
   width: 75%;
+  /*  width: 13.5rem; */
 }
 
 #projectName {
-  width: 100%;
+  min-width: 100%;
   color: unset;
   text-decoration: none;
   text-overflow: ellipsis;
@@ -25,6 +27,7 @@
 }
 
 #arrow {
+  /*  transform: scale(0.5); */
   color: wheat;
   text-align: center;
   opacity: 0.5;

@@ -1,0 +1,9 @@
+.contact {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#rowForm {
+  padding-bottom: 1rem;
+}

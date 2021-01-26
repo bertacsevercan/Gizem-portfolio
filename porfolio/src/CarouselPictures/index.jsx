@@ -1,9 +1,21 @@
 import React from "react";
 import test from "../images/test.png";
 import test2 from "../images/test2.jpeg";
+import {
+  p1_1,
+  p1_2,
+  p1_3,
+  p1_4,
+  p1_5,
+  p1_6,
+  p1_7,
+  p1_8,
+  p1_9,
+  p1_10,
+} from "../images/W_M1";
 
 const imageLinks = [
-  [test, test2, test],
+  [p1_1, p1_2, p1_3, p1_4, p1_5, p1_6, p1_7, p1_8, p1_9, p1_10],
   [test, test2, test],
   [test, test2, test],
 ];
