@@ -2,12 +2,12 @@
   padding-bottom: 1rem;
   background: url("../../images/mainBg.png") center;
   background-size: cover;
-  overflow-x: auto;
+  /*  overflow-x: auto; */
 }
 
 .projectImage {
-  display: flex;
-  justify-content: space-around;
+  /*   display: flex;
+  justify-content: space-between; */
   overflow-x: auto;
   background: url("../../images/mainBg.png") center;
   background-size: cover;

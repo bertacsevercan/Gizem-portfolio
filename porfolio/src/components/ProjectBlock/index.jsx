@@ -1,16 +1,22 @@
 import React from "react";
+import { Col, Image } from "react-bootstrap";
+
 import "./style.css";
 
 const ProjectBlock = ({ image }) => {
   return (
-    <div className="projectBlock" style={{ width: "200px" }}>
-      <img
+    /*  <Col> */
+    <div className="projectBlock">
+      <Image
+        /* width="200px" */
         height="150px"
-        className="d-block w-100"
+        className
         src={image}
-        alt="First slide"
+        alt="Project"
+        rounded
       />
     </div>
+    /* </Col> */
   );
 };
 
