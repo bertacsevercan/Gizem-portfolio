@@ -18,15 +18,6 @@ const colors = [
   "#A69CC1",
 ];
 
-const projectInfo = {
-  title: ["Project Name-1", "Project Name-2", "Project Name-3"],
-  text: [
-    "This is a description.",
-    "This is a description.",
-    "This is a description.",
-  ],
-};
-
 const overlayProps = {
   direction: ["left", "left", "right", "right", "right", "right"],
   classNames: ["first", "second", "third", "fourth", "fifth", "sixth"],
@@ -48,4 +39,4 @@ const overlayProps = {
   ],
 };
 
-export { colors, projectInfo, overlayProps };
+export { colors, overlayProps };

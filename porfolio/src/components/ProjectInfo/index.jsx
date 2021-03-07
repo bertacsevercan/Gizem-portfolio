@@ -1,11 +1,14 @@
 import React from "react";
-import { projectInfo } from "../../assets";
+import { useTranslation } from "react-i18next";
 
 const ProjectInfo = ({ projectId }) => {
+  const {t} = useTranslation();
+
   return (
     <div className="projectInfo">
-      <h4>{projectInfo.title[projectId]}</h4>
-      <p>{projectInfo.text[projectId]}</p>
+      <h4>{t(`projects.heads.${projectId}`)}</h4>
+      <p>{t(`projects.texts.${projectId}`)}</p>
+      <b></b>
     </div>
   );
 };

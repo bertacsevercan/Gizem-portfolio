@@ -15,7 +15,32 @@
     }
   },
   "projects": {
-    "title": "Projects"
+    "title": "Projects",
+    "heads" : [
+      "Sport Complex", "Vertical Farming", "Yuvacık Villa", "Restoration Project", "Airport", "Glass Museum",
+      "Ecological Villa", "Senses", "Youth Center", "Skyscraper", "Steel Structure", "Breakwater", "Perfume", "Coffee Pot"
+    ],
+    "texts" : [
+      "Bursa Atatürk Sports Complex Competition", 
+      "Our project includes memory spaces that are the collective memory of the society, creating a social living space, and adapting to nature with effective architectural perspective and sustainability plans. Total Project Area: 4655m². ",
+      "The villa project, which has a location where Yuvacık Dam, Sapanca Lake, Kocaeli Bay and Mountain Views are seen together; It has 4 rooms and 1 living room in a closed area and a garden of 200m².", 
+      "It is planned to transform the 4 + 1 flat, which was formed by combining 2 flats in the past, into 2 separate flats again. The apartments to be formed are aimed to have a 2 + 1 apartment structure.",  
+      "The point of inspiration for the airport design comes from the form of the fuselage and wings of the aircraft. The main entrances are designed in the fuselage part and the parts representing the wings are the docking areas of the aircraft.", 
+      "Within the scope of the project of transforming the Paşabahçe Glass Factory into a museum, a complex with various production workshops, training areas, viewing terrace, sales units and exhibition areas was designed.", 
+      "Passive and active designs are considered in order for the building to use minimum energy. While the side of the villa facing the lake is used as the summer zone, the other side is planned to be used as the winter zone in order to make more use of the sun heat in winters.",
+      "The context of the building is 'A Center for Victims of Domestic Abuse'. The aim of the project is to raise awareness of victims about centers where they can get help. In other words, oppressed women, children and young people will use this building.",
+      "The subject of the project is the youth center. The program includes sports activities, training areas, workshops and exhibition areas. The location of the project is opposite the Tophane tram stop. The most striking point of the building in the park is that the facade elements have different reflectance levels at different angles. The reason why reflective surfaces are preferred is to emphasize the integration of a concrete structure with green.",
+      "Conceptual skyscraper design",
+      "Civil Engineering Graduation Project. Architectural design of a 3-storey Steel Structure Project",
+      "Breakwater Design Calculations and Drawing",
+      "Perfume Bottle and Box Design",
+      "Technical drawings of coffee pot models of a company."
+    ],
+    "bolds" : {
+      "bold0" : "Team mates:",
+      "bold1" : "Programs used:",
+      "bold2" : "Project location:"
+    }
   },
   "contact": {
     "title": "Contact",

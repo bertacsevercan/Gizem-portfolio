@@ -6,10 +6,9 @@ import "./style.css";
 
 const projectProps = [];
 
-for (let i = 0; i < assets.projectInfo.title.length; i++) {
+for (let i = 0; i < assets.colors.length -3; i++) {
   projectProps.push({
     color: assets.colors[i],
-    title: assets.projectInfo.title[i],
   });
 }
 
@@ -19,7 +18,6 @@ const Projects = () => {
       <Container>
         {projectProps.map((project, index) => (
           <ProjectGallery
-            title={project.title}
             color={project.color}
             key={index}
             projectId={index}

@@ -13,10 +13,10 @@ const Home = () => {
       <Container>
         <Row>
           <Col>
-            <Image src={city} width="100%" height="100%" />
+            <Image /* id="city" */ src={city} width="100%" height="100%" />
           </Col>
         </Row>
-        <Row>
+        <Row /*  id="home-con" */>
           <Col>
             <div className="homeText">
               <h1>{t("home.head")}</h1>

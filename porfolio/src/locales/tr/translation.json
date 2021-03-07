@@ -15,7 +15,32 @@
     }
   },
   "projects": {
-    "title": "Projeler"
+    "title": "Projeler",
+    "heads" : [
+      "Spor Salonu", "Dikey Tarım", "Yuvacık Villa", "Restorasyon Projesi", "Havaalanı", "Cam Müzesi",
+      "Ekolojik Villa", "Duyular", "Gençlik Merkezi", "Gökdelen", "Çelik Yapı", "Dalgakıran", "Parfüm", "Cezve"
+    ],
+    "texts" : [
+      "Bursa Atatürk Spor Kompleksi Yarışması",
+      "Projemizde toplumun kollektif belleği olan hafıza mekanlara yer vererek, sosyal yaşam alanı oluşturulup etkin mimari bakış açısı ve sürdürülebilirlik planlarıyla doğaya uyum sağlanmaktadır. Proje konumu olarak olarak mahalle dokusunu barındıran avlulu adalardan oluşan, İstanbul Avcılar, Marmara Caddesi boyunca konumlanan üç ada seçilmiştir. Proje alanı toplam 4655 m²’dir. Adalar fonksiyonlarına göre; 'Beceri Adası', 'Organik Ada', 'Mutluluk Adası' olarak isimlendirilmiştir.",
+      "Yuvacık barajı, Sapanca Gölü, Kocaeli Körfezi ve Dağ Manzaralarının bir arada görüldüğü konuma sahip olan villa proyesi; kapalı alanda 4 oda ve 1 salona sahip olmakla birlikte 200m² bahçeye sahiptir. ", 
+      "Geçmişte 2 dairenin birleştirilmesiyle oluşan 4+1 dairenin tekrardan 2 ayrı daireye dönüştürülmesi planlanmıştır. Oluşacak dairelerin 2+1 daire yapısına sahip olması hedeflenmiştir.",  
+      "Havaalanı tasarımı esinlenme noktası uçağın gövdesi ve kanatlarının formundan gelmektedir. Ana girişler gövde kısmında tasarlanmış olup kanatların temsil eden kısımlar uçakların yanaşma bölgeleridir.", 
+      "Paşabahçe Cam Fabrikasının müzeye dönüştürülme projesi kapsamında çeşitli üretim atölyleri, eğitim alanları, seyir terası, satış birimleri ve sergi alanlarının bulunduğu bir kompleks tasarlanmıştır. ", 
+      "Yapının minimum enerji kullanabilmesi için pasif ve aktif tasarımlar düşünülmüştür. Villanın göle bakan tarafı yaz bölgesi olarak kullanılırken, kışları güneş ısısından daha fazla faydalanmak için diğer tarafın kış bölgesi olarak kullanılması planlanmıştır.",
+      "Binanın bağlamı 'Aile İçi Şiddet Mağdurları için Bir Merkez' dir. Projenin amacı, mağdurları yardım alabilecekleri merkezler hakkında bilinçlendirmektir. Yani baskı altındaki kadınlar, çocuklar ve gençler bu binayı kullanacaklardır. Toplam Alan: 22 300 m2",
+      "Projenin konusu gençlik merkezidir. Programda sportif aktiviteler, eğitim alanları, atölyeler ve sergi, alanları bulunmaktadır. Projenin konumu Tophane tramvay durağının karşısıdır. Parkın içinde yer alan yapının en çarpıcı noktası cephe elemanlarının farklı açılarda farklı yansıtıcılık düzeyine sahip olmasıdır. Yansıtıcı yüzeylerin tercih edilmesinin sebebi beton bir yapının yeşille bütünleşmesini vurgulamaktır.",
+      "Kavramsal gökdelen tasarımı.",
+      "İnşaat Mühendisliği Bitirme Projesi. 3 katlı Çelik Yapı Projesinin Mimari tasarımı.",
+      "Dalgakıran Tasarım Hesapları ve Çizimi.",
+      "Parfüm Şişesi ve Kutusu Tasarımı.",
+      "Firmanın cezve modellerinin teknik çizimi."
+    ],
+    "bolds" : {
+      "bold0" : "Team mates:",
+      "bold1" : "Programs used:",
+      "bold2" : "Project location:"
+    }
   },
   "contact": {
     "title": "Contact",

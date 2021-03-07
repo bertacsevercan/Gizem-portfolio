@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { projectInfo } from "../../assets";
+import { useTranslation } from "react-i18next";
 import "./style.css";
 
 const ProjectButton = ({ routeId, color }) => {
+  const {t} = useTranslation();
   const [nameVisible, setNameVisible] = useState("none");
   const [arrowVisible, setArrowVisible] = useState("block");
 
@@ -29,7 +30,7 @@ const ProjectButton = ({ routeId, color }) => {
           style={{ display: nameVisible }}
           id="projectName"
         >
-          <b>{projectInfo.title[routeId]}</b>
+          <b>{routeId < 14 ? t(`projects.heads.${routeId}`) : null}</b>
         </a>
         <h3 style={{ display: arrowVisible }} id="arrow">
           &#10095;
