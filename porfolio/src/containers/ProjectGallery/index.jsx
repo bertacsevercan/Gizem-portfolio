@@ -6,12 +6,12 @@ import "./style.css";
 import { useTranslation } from "react-i18next";
 
 const ProjectGallery = ({ color, projectId }) => {
-  const {t} = useTranslation();
-  
+  const { t } = useTranslation();
+
   return (
     <div className="projectGallery">
       <h4 className="projectTitle" style={{ backgroundColor: color }}>
-      {t(`projects.heads.${projectId}`)}
+        {t(`projects.heads.${projectId}`)}
       </h4>
 
       <div className="projectImage">

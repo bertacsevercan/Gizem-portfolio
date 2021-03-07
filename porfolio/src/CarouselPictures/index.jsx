@@ -8,8 +8,8 @@ import project7 from "../images/W_M7";
 import project8 from "../images/W_M8";
 import project9 from "../images/W_M9";
 import project10 from "../images/W_M10/W_M10_1.png";
-import project11 from "../images/W_I_1.png";
-import project12 from "../images/W_I2";
+import project11 from "../images/W_I2";
+import project12 from "../images/W_I_1.png";
 import project13 from "../images/W_E1";
 import project14 from "../images/W_E2";
 
@@ -24,8 +24,8 @@ const imageLinks = [
   [...project8],
   [...project9],
   [project10],
-  [project11],
-  [...project12],
+  [...project11],
+  [project12],
   [...project13],
   [...project14],
 ];

@@ -6,7 +6,7 @@ import "./style.css";
 
 const projectProps = [];
 
-for (let i = 0; i < assets.colors.length -3; i++) {
+for (let i = 0; i < assets.colors.length - 3; i++) {
   projectProps.push({
     color: assets.colors[i],
   });
@@ -17,11 +17,7 @@ const Projects = () => {
     <div className="projects">
       <Container>
         {projectProps.map((project, index) => (
-          <ProjectGallery
-            color={project.color}
-            key={index}
-            projectId={index}
-          />
+          <ProjectGallery color={project.color} key={index} projectId={index} />
         ))}
       </Container>
     </div>

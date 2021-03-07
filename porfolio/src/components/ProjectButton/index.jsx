@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import "./style.css";
 
 const ProjectButton = ({ routeId, color }) => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   const [nameVisible, setNameVisible] = useState("none");
   const [arrowVisible, setArrowVisible] = useState("block");
 
