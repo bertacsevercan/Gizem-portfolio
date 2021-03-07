@@ -9,4 +9,6 @@ import p1_8 from "./W_M1_8.png";
 import p1_9 from "./W_M1_9.png";
 import p1_10 from "./W_M1_10.png";
 
-export { p1_1, p1_2, p1_3, p1_4, p1_5, p1_6, p1_7, p1_8, p1_9, p1_10 };
+const project1 = [p1_1, p1_2, p1_3, p1_4, p1_5, p1_6, p1_7, p1_8, p1_9, p1_10];
+
+export default project1;

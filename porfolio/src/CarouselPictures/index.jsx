@@ -1,85 +1,33 @@
-import React from "react";
-import test from "../images/test.png";
-import test2 from "../images/test2.jpeg";
-import {
-  p1_1,
-  p1_2,
-  p1_3,
-  p1_4,
-  p1_5,
-  p1_6,
-  p1_7,
-  p1_8,
-  p1_9,
-  p1_10,
-} from "../images/W_M1";
+import project1 from "../images/W_M1";
+import project2 from "../images/W_M2";
+import project3 from "../images/W_M3";
+import project4 from "../images/W_M4";
+import project5 from "../images/W_M5";
+import project6 from "../images/W_M6";
+import project7 from "../images/W_M7";
+import project8 from "../images/W_M8";
+import project9 from "../images/W_M9";
+import project10 from "../images/W_M10/W_M10_1.png";
+import project11 from "../images/W_I_1.png";
+import project12 from "../images/W_I2";
+import project13 from "../images/W_E1";
+import project14 from "../images/W_E2";
 
 const imageLinks = [
-  [p1_1, p1_2, p1_3, p1_4, p1_5, p1_6, p1_7, p1_8, p1_9, p1_10],
-  [test, test2, test],
-  [test, test2, test],
-];
-const images = [
-  [
-    <img
-      height="550px"
-      className="d-block w-100"
-      src={test}
-      alt="First slide"
-    />,
-    <img
-      height="550px"
-      className="d-block w-100"
-      src={test2}
-      alt="Second slide"
-    />,
-    <img
-      height="550px"
-      className="d-block w-100"
-      src="https://image.freepik.com/free-vector/flat-design-house-collection_23-2148683215.jpg"
-      alt="Third slide"
-    />,
-  ],
-  [
-    <img
-      height="550px"
-      className="d-block w-100"
-      src="https://image.freepik.com/free-vector/flat-design-house-collection_23-2148683215.jpg"
-      alt="First slide"
-    />,
-    <img
-      height="550px"
-      className="d-block w-100"
-      src="https://image.freepik.com/free-vector/flat-design-house-collection_23-2148683215.jpg"
-      alt="Second slide"
-    />,
-    <img
-      height="550px"
-      className="d-block w-100"
-      src="https://image.freepik.com/free-vector/flat-design-house-collection_23-2148683215.jpg"
-      alt="Third slide"
-    />,
-  ],
-  [
-    <img
-      height="550px"
-      className="d-block w-100"
-      src="https://image.freepik.com/free-vector/flat-design-house-collection_23-2148683215.jpg"
-      alt="First slide"
-    />,
-    <img
-      height="550px"
-      className="d-block w-100"
-      src="https://image.freepik.com/free-vector/flat-design-house-collection_23-2148683215.jpg"
-      alt="Second slide"
-    />,
-    <img
-      height="550px"
-      className="d-block w-100"
-      src="https://image.freepik.com/free-vector/flat-design-house-collection_23-2148683215.jpg"
-      alt="Third slide"
-    />,
-  ],
+  [...project1],
+  [...project2],
+  [...project3],
+  [...project4],
+  [...project5],
+  [...project6],
+  [...project7],
+  [...project8],
+  [...project9],
+  project10,
+  project11,
+  [...project12],
+  [...project13],
+  [...project14],
 ];
 
-export { imageLinks, images };
+export { imageLinks };
