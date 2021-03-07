@@ -40,6 +40,10 @@
   padding-left: 0;
 }
 
+.list {
+  text-align: left;
+}
+
 /* .img-text-wrapper img {
   max-width: 50%;
 }

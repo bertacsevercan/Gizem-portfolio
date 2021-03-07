@@ -12,6 +12,32 @@
       "head1": "Eğitim",
       "head2": "Teknik Beceriler",
       "head3": "Diller"
+    },
+    "langs": {
+      "tr": "Türkçe (Ana)",
+      "en": "İngilizce (B2)"
+    },
+    "experiences": {
+      "titles": [
+        "Koç Yapı -Tam zamanlı (2020)",
+        "Resim Yapı -Staj (2019)",
+        "Zeray İnşaat -Staj (2019)",
+        "Makyol -Staj (2018)",
+        "SN Architecture Office -Staj (2017)",
+        "Istanbul Kültür Üniversitesi -İnşaat Mühendisliği (2016-2020)",
+        "Istanbul Kültür Üniversitesi -Mimarlık (2015-2019)",
+        "La Salle Ramon Llyll University -Barselona (2018)"
+      ],
+      "texts": [
+        "Saray projesinde saha mimarı.",
+        "Devam eden projeler için teknik çizimler yapıldı.",
+        "İş standartlarını sağlamak için mühendislik kontrolü yapıldı.",
+        "Teknik çizimler analiz edildi ve 3D görüşünüşler hazırlandı.",
+        "Revit ve AutoCAD ile çizimler ve revizeler yapıldı.",
+        "Lisans derecesi. Bölümde 1. GPA: 3.12/4.00",
+        "Lisans derecesi. Bölümde 2. GPA: 3.53/4.00",
+        "Mimarlık Lisans, Erasmus."
+      ]
     }
   },
   "projects": {
@@ -39,7 +65,7 @@
       "Geçmişte 2 dairenin birleştirilmesiyle oluşan 4+1 dairenin tekrardan 2 ayrı daireye dönüştürülmesi planlanmıştır. Oluşacak dairelerin 2+1 daire yapısına sahip olması hedeflenmiştir.",
       "Havaalanı tasarımı esinlenme noktası uçağın gövdesi ve kanatlarının formundan gelmektedir. Ana girişler gövde kısmında tasarlanmış olup kanatların temsil eden kısımlar uçakların yanaşma bölgeleridir.",
       "Paşabahçe Cam Fabrikasının müzeye dönüştürülme projesi kapsamında çeşitli üretim atölyleri, eğitim alanları, seyir terası, satış birimleri ve sergi alanlarının bulunduğu bir kompleks tasarlanmıştır. ",
-      "Yapının minimum enerji kullanabilmesi için pasif ve aktif tasarımlar düşünülmüştür. Villanın göle bakan tarafı yaz bölgesi olarak kullanılırken, kışları güneş ısısından daha fazla faydalanmak için diğer tarafın kış bölgesi olarak kullanılması planlanmıştır.",
+      "Yapının minimum enerji kullanabilmesi için pasif ve aktif tasarımlar düşünülmüştür. Villanın göle bakan tarafı yaz bölgesi olarak kullanılırken, kışları güneş ısısından faydalanmak için diğer tarafın kış bölgesi olarak kullanılması planlanmıştır.",
       "Binanın bağlamı 'Aile İçi Şiddet Mağdurları için Bir Merkez' dir. Projenin amacı, mağdurları yardım alabilecekleri merkezler hakkında bilinçlendirmektir. Yani baskı altındaki kadınlar, çocuklar ve gençler bu binayı kullanacaklardır. Toplam Alan: 22 300 m2",
       "Projenin konusu gençlik merkezidir. Programda sportif aktiviteler, eğitim alanları, atölyeler ve sergi, alanları bulunmaktadır. ",
       "Kavramsal gökdelen tasarımı.",
@@ -59,7 +85,7 @@
         "Mustafa Sivas",
         "Mustafa Sivas",
         "Mustafa Sivas",
-        " Şeyma Betül Savaş",
+        " Şeyma B. Savaş",
         "",
         "",
         "Berkant Ergen, Ceren Ege",
@@ -90,7 +116,7 @@
         "",
         "",
         "Beykoz/Istanbul",
-        "Göksu River/Istanbul",
+        "Göksu/Istanbul",
         "Bakırköy/İstanbul",
         "",
         "",

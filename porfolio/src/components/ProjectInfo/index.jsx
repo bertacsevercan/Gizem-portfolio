@@ -15,6 +15,7 @@ const ProjectInfo = ({ projectId }) => {
         {t(`projects.bolds.teams.${projectId}`) ? (
           <>
             {" "}
+            &nbsp;&nbsp;
             <b>{t(`projects.bolds.bold0`)}</b>{" "}
             {t(`projects.bolds.teams.${projectId}`)}
           </>
@@ -22,6 +23,7 @@ const ProjectInfo = ({ projectId }) => {
         {t(`projects.bolds.location.${projectId}`) ? (
           <>
             {" "}
+            &nbsp;&nbsp;
             <b>{t(`projects.bolds.bold2`)}</b>{" "}
             {t(`projects.bolds.location.${projectId}`)}
           </>

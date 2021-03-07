@@ -23,7 +23,7 @@ const ContactInfo = () => {
           <p>
             <b>{t("contact.info.heads.head2")}</b>
           </p>
-          <p>gizem.erdurak@gmail.com</p>
+          <p>gizem.erdurak@outlook.com</p>
         </div>
         <div id="socialMedia">
           <p>
@@ -34,7 +34,7 @@ const ContactInfo = () => {
             target="_blank"
             rel="noreferrer"
             title={t("contact.info.texts.text1")}
-            href="#"
+            href="http://www.linkedin.com/in/gizemerdurak"
           >
             {" "}
             <FaLinkedinIn className="social-icons" />{" "}
@@ -45,7 +45,7 @@ const ContactInfo = () => {
             target="_blank"
             rel="noreferrer"
             title={t("contact.info.texts.text2")}
-            href="#"
+            href="https://www.instagram.com/ge_architect_engineer"
           >
             {" "}
             <FaInstagram className="social-icons" />{" "}

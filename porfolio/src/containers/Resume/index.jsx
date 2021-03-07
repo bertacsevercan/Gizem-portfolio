@@ -3,6 +3,7 @@ import Image from "react-bootstrap/Image";
 import TimelinePopover from "../../components/TimelinePopover";
 import { useTranslation } from "react-i18next";
 import { overlayProps } from "../../assets";
+import pp from "../../images/ge_pp.jpeg";
 import "./style.css";
 
 const Resume = () => {
@@ -14,8 +15,8 @@ const Resume = () => {
     popContent.push({
       direction: overlayProps.direction[i],
       className: overlayProps.classNames[i],
-      title: overlayProps.title[i],
-      content: overlayProps.content[i],
+      title: t(`resume.experiences.titles.${i}`),
+      content: t(`resume.experiences.texts.${i}`),
     });
   }
 
@@ -44,33 +45,28 @@ const Resume = () => {
         </div>
       </div>
       <div className="img-text-wrapper">
-        <Image
-          id="profilePic"
-          width="70%"
-          src="https://image.freepik.com/free-vector/architect-concept-illustration_114360-3042.jpg"
-          thumbnail
-        />
+        <Image id="profilePic" width="70%" src={pp} thumbnail />
         <p>
           <b>{t("resume.heads.head2")}</b>
         </p>
-        <ul>
-          <li>Technical skill</li>
-          <li>Technical skill</li>
-          <li>Technical skill</li>
-          <li>Technical skill</li>
-          <li>Technical skill</li>
-          <li>Technical skill</li>
-          <li>Technical skill</li>
-          <li>Technical skill</li>
-          <li>Technical skill</li>
-          <li>Technical skill</li>
+        <ul className="list">
+          <li>AutoCAD</li>
+          <li>SketchUp</li>
+          <li>PhotoShop</li>
+          <li>Lumion</li>
+          <li>Revit</li>
+          <li>Rhino (Grasshopper)</li>
+          <li>Excel</li>
+          <li>Primavera P6</li>
+          <li>SAP2000</li>
+          <li>Robot Structure</li>
         </ul>
         <p>
           <b>{t("resume.heads.head3")}</b>
         </p>
-        <ul>
-          <li>A language</li>
-          <li>A language</li>
+        <ul className="list">
+          <li>{t("resume.langs.tr")}</li>
+          <li>{t("resume.langs.en")}</li>
         </ul>
       </div>
     </div>

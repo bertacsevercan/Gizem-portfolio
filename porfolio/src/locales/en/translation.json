@@ -12,6 +12,32 @@
       "head1": "Education",
       "head2": "Technical Skills",
       "head3": "Languages"
+    },
+    "langs": {
+      "tr": "Turkish (Native)",
+      "en": "English (B2)"
+    },
+    "experiences": {
+      "titles": [
+        "Koç Construction -Full Time (2020)",
+        "Resim Construction -Intern (2019)",
+        "Zeray Construction -Intern (2019)",
+        "Makyol Construction -Intern (2018)",
+        "SN Architecture Office -Intern (2017)",
+        "Istanbul Kültür University -Civil Engineer (2016-2020)",
+        "Istanbul Kültür University -Architecture (2015-2019)",
+        "La Salle Ramon Llyll University -Barcelona (2018)"
+      ],
+      "texts": [
+        "Site architect in a palace project.",
+        "Provided technical documents for ongoing projects.",
+        "Controlled engineering activities to maintain work standards.",
+        "Analyzed drawings and prepared 3D perspective views for presentations.",
+        "Created and revised drawings in Revit and AutoCAD.",
+        "Bachelor Degree. 1'st in the department. GPA: 3.12/4.00",
+        "Bachelor Degree. 2'nd in the department. GPA: 3.53/4.00",
+        "Bachelor of Architecture, Erasmus."
+      ]
     }
   },
   "projects": {
@@ -39,7 +65,7 @@
       "It is planned to transform the 4 + 1 flat, which was formed by combining 2 flats in the past, into 2 separate flats again. The apartments to be formed are aimed to have a 2 + 1 apartment structure.",
       "The point of inspiration for the airport design comes from the form of the fuselage and wings of the aircraft. The main entrances are designed in the fuselage part and the parts representing the wings are the docking areas of the aircraft.",
       "Within the scope of the project of transforming the Paşabahçe Glass Factory into a museum, a complex with various production workshops, training areas, viewing terrace, sales units and exhibition areas was designed.",
-      "Passive and active designs are considered in order for the building to use minimum energy. While the side of the villa facing the lake is used as the summer zone, the other side is planned to be used as the winter zone in order to make more use of the sun heat in winters.",
+      "Passive and active designs are considered in order for the building to use minimum energy. While the side of the villa facing the lake is used as the summer zone, the other side is used as the winter zone in order to make more use of the sun.",
       "The context of the building is 'A Center for Victims of Domestic Abuse'. The aim of the project is to raise awareness of victims about centers where they can get help. In other words, oppressed women, children and young people will use this building.",
       "The subject of the project is the youth center. The program includes sports activities, training areas, workshops and exhibition areas. ",
       "Conceptual skyscraper design",
@@ -59,7 +85,8 @@
         "Mustafa Sivas",
         "Mustafa Sivas",
         "Mustafa Sivas",
-        " Şeyma Betül Savaş",
+        "Şeyma B. Savaş",
+        "",
         "",
         "",
         "Berkant Ergen, Ceren Ege",
@@ -92,6 +119,7 @@
         "Beykoz/Istanbul",
         "Göksu River/Istanbul",
         "Bakırköy/İstanbul",
+        "",
         "",
         "",
         "",
