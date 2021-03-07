@@ -1,7 +1,9 @@
 {
   "home": {
     "title": "Home",
-    "head": "Welcome to my world!"
+    "head": "Welcome to my world!",
+    "p1": "My name is Gizem Erdurak and I'm an architect-engineer. I've done double majors at Istanbul Kültür University with Architecture and Civil Engineering and graduated at the top of my class. I've also studied in Barcelona as an Erasmus student. I've done internships in 4 different companies and worked as a field architect in the Yalova palace project.",
+    "p2": "I believe the construction sector's future lays in BIM(Building Information Modeling) and I try to improve myself in this area. I'm confident that having both of my college degrees can be very beneficial for me in the world of BIM."
   },
   "resume": {
     "title": "Resume",

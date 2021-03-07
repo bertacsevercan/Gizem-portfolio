@@ -1,10 +1,21 @@
 .home {
   /* padding: 1rem; */
-  background: url("../../images/buildings.jpg") center;
+  background: url("../../images/home_bg.jpeg") center;
   background-size: cover;
   height: 100%;
   align-items: center;
   display: flex;
+}
+
+#home-con {
+  position: relative;
+}
+
+#city {
+  position: absolute;
+  bottom: 228px;
+  right: -5px;
+  /* left: 5px; */
 }
 
 .home h1 {
@@ -14,12 +25,16 @@
 .homeText {
   padding: 0 1rem;
   box-sizing: border-box;
-  margin-top: 3rem;
+  /*   margin-top: 3rem; */
   background: url("../../images/mainBg.png") center;
   background-size: cover;
   border-radius: 10px;
 }
 
 .homeText p {
+  text-align: left;
+}
+
+.homeText p:last-of-type {
   padding-bottom: 1rem;
 }

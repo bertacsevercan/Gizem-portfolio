@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 import { useTranslation } from "react-i18next";
+import city from "../../images/city_outline.png";
 import "./style.css";
 
 const Home = () => {
@@ -12,23 +13,15 @@ const Home = () => {
       <Container>
         <Row>
           <Col>
-            <Image
-              width="50%"
-              src="https://image.freepik.com/free-vector/architect-concept-illustration_114360-3042.jpg"
-              roundedCircle
-            />
+            <Image src={city} width="100%" height="100%" />
           </Col>
         </Row>
         <Row>
           <Col>
             <div className="homeText">
               <h1>{t("home.head")}</h1>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Blanditiis quis numquam consequuntur nobis quos fuga eius
-                incidunt adipisci ea, vero officiis soluta, similique odio
-                molestiae corporis iusto optio cum accusantium?
-              </p>
+              <p>{t("home.p1")}</p>
+              <p>{t("home.p2")}</p>
             </div>
           </Col>
         </Row>

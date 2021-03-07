@@ -1,7 +1,9 @@
 {
   "home": {
     "title": "Anasayfa",
-    "head": "Dünyama hoşgeldiniz!"
+    "head": "Dünyama hoşgeldiniz!",
+    "p1": "Ben Mimar-Mühendis Gizem Erdurak, İstanbul Kültür Üniversitesinde çift anadal programı ile Mimarlık ve İnşaat Mühendisliği bölümlerinden dereceyle mezun oldum. Okul sürecimde Barcelona’da 6 ay Erasmus deneyimi yaşadım. Dört ayrı firmada staj deneyimimden sonra Yalova Saray projesinde Saha Mimarı olarak çalıştım.",
+    "p2": "Yapı sektörünün geleceğinin BIM (Building Information Modeling) olduğunu düşünüyorum ve bu konu hakkında  kendimi geliştirmek üzere çalışmalarda bulunuyorum. Ayrıca iki bölüm okumuş olmamın BIM alanında yapacağım çalışmalara katkı sağlayacağını düşünüyorum."
   },
   "resume": {
     "title": "Özgeçmiş",
